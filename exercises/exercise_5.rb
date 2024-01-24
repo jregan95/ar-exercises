@@ -4,8 +4,11 @@ require_relative './exercise_2'
 require_relative './exercise_3'
 require_relative './exercise_4'
 
+
 puts "Exercise 5"
 puts "----------"
 
+puts Store.sum(:annual_revenue)
+puts Store.average(:annual_revenue)
+puts Store.where('annual_revenue > ?', 1000000).count(:name)
 # Your code goes here ...
-#bundle exec ruby exercises/exercise_2.rb
