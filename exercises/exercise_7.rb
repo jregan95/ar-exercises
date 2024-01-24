@@ -10,3 +10,4 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+#bundle exec ruby exercises/exercise_2.rb
